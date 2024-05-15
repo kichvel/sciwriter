@@ -15,7 +15,7 @@ module.exports = {
         "2xl": "1400px",
       },
     },
-    extend: {
+    extend: { //These colors are generated in the global css colorscheme from ui.shadcn.com/themes
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
