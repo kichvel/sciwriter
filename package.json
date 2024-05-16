@@ -1,5 +1,5 @@
 {
-  "name": "quill",
+  "name": "sciwriter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,8 +10,9 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
     "@hookform/resolvers": "^3.3.1",
-    "@kinde-oss/kinde-auth-nextjs": "^1.9.4",
+    "@kinde-oss/kinde-auth-nextjs": "^1.8.18",
     "@mantine/hooks": "^7.0.1",
     "@pinecone-database/pinecone": "^1.0.1",
     "@prisma/client": "^5.3.1",
@@ -23,11 +24,11 @@
     "@radix-ui/react-toast": "^1.1.4",
     "@radix-ui/react-tooltip": "^1.0.6",
     "@tailwindcss/typography": "^0.5.10",
-    "@tanstack/react-query": "^4.35.3",
-    "@trpc/client": "^10.38.4",
-    "@trpc/next": "^10.38.4",
-    "@trpc/react-query": "^10.38.4",
-    "@trpc/server": "^10.38.4",
+    "@tanstack/react-query": "^5.36.2",
+    "@trpc/client": "^11.0.0-rc.370",
+    "@trpc/next": "^11.0.0-rc.370",
+    "@trpc/react-query": "^11.0.0-rc.370",
+    "@trpc/server": "^11.0.0-rc.370",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
@@ -44,6 +45,7 @@
     "next": "^14.2.3",
     "openai": "^4.10.0",
     "pdf-parse": "^1.1.1",
+    "pnpm": "^9.1.1",
     "postcss": "8.4.30",
     "prisma": "^5.3.1",
     "react": "18.2.0",
@@ -56,11 +58,12 @@
     "react-textarea-autosize": "^8.5.3",
     "simplebar-react": "^3.2.4",
     "stripe": "^13.7.0",
+    "supabase": "^1.167.4",
     "tailwind-merge": "^1.14.0",
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2",
     "uploadthing": "^5.6.1",
-    "zod": "^3.21.4"
+    "zod": "^3.23.8"
   }
 }

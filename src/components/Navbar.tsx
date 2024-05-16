@@ -35,6 +35,7 @@ const Navbar = () => {
                   })}>
                   Pricing
                 </Link>
+
                 <LoginLink
                   className={buttonVariants({
                     variant: 'ghost',
@@ -42,6 +43,7 @@ const Navbar = () => {
                   })}>
                   Sign in
                 </LoginLink>
+                
                 <RegisterLink
                   className={buttonVariants({
                     size: 'sm',
